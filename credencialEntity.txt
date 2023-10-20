@@ -1,0 +1,4 @@
+ Scaffold-DbContext "server=localhost; database=pruebalogin; integrated security=true;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
+
+
+Scaffold-DbContext "Server=192.168.100.67;Database=pruebalogin;User=timereport;Password=P@ssw0rd01;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
